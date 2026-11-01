@@ -51,6 +51,20 @@
 			<artifactId>flyway-database-postgresql</artifactId>
 		</dependency>
 
+		<!-- CSV file parsing -->
+        <dependency>
+           <groupId>org.apache.commons</groupId>
+           <artifactId>commons-csv</artifactId>
+           <version>1.14.1</version>
+        </dependency>
+
+        <!-- Excel .xls and .xlsx file parsing -->
+        <dependency>
+           <groupId>org.apache.poi</groupId>
+           <artifactId>poi-ooxml</artifactId>
+           <version>5.4.1</version>
+        </dependency>
+
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
